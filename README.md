@@ -1,4 +1,4 @@
-# Projects - Couple of interesting notebooks
+# Projects - Couple of interesting projects
 
 ## Project 1 - Face recognition
 According to Yan, Kriegman, and Ahuja, face detection can be categorized into feature-based, appearance-based, knowledge-based and template matching. As the name suggests, feature-based relies on structural features of the face, whereas knowledge-based relies on the pre-existing knowledge and rules pertaining to the face constitution. Template matching correlates the input images with pre-defined, parametrized templates whereas appearance-based banks on a training set to generate face models.
