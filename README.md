@@ -216,5 +216,32 @@ Facebook Inc. is an American social media and social networking company which wa
 
 In order to proceed with this project, it is essential to understand how Facebook database works. Information on Facebook is mostly represented in the form of a social graph. The content is usually highly customizable based on the user’s privacy settings. Hence, the data has to be stored in its original form and then filtered when needed. Facebook uses a combination of MySQL and Memcache for its database. Every user has his/her own dedicated database. Facebook uses MySQL because of its speed and reliability.  Facebook stores friend relationships in a system called ‘Tao’ which uses MySQL. All tables have a hashed name and they are spread over a number of servers, similar to graph databases. Tao only stores the relations between entities. According to Facebook Inc., they collect information based on how a user uses their products. Information is collected from and about all computers and other devices the user uses to access Facebook, and this information is combined by them. The collected information is used to personalize features and content and to make suggestions for the user. The collected data is used to help advertisers to measure the effectiveness of their ads and services and to understand how the users interact with their services. They store the data until it is no longer necessary to provide the services or until the user deletes the account, whichever is first. While trying to understand the database structure of Facebook, we went through a number of resources and stumbled upon a resource where the class diagram was created by reverse engineering various Facebook business entities. Since only a very small portion of database details of Facebook is available as open source, we decided to create our database by reverse-engineering the the ER diagram we initially designed. Thereafter, we generated data ourselves before proceeding to integrate the data in sql. We went way beyond the presribed 5 problems/queries when we decided to tackle around 20 problems/queries. Some were routine tasks whereas others were aimed at analysing by querying the database.
 
+## Side Project - Flag illegal listings in Paris Airbnb dataset
 
+→ Dataset: AirBnb data pertaining to paris Paris
+
+→ Source: http://insideairbnb.com/get-the-data.html
+
+→ Scenario: Legal issues arising from listings exceeding the yearly 120 nights cap set by the government.
+
+→ Task: Flagging illegal listings in Paris Airbnb dataset
+
+The files with Airbnb listings, calender and neighborhoods are available for analysis.
+
+### Motivation -
+According to Critics, Airbnb drives up rental prices and lowers housing availability in cities such as Paris and San Francisco, forcing lawmakers to enact laws to protect the interests of local residents seeking accomodation. Failure to comply attracts heavy penalties, and any controversies triggered henceforth, can tarnish the public image of the company, and negatively impact customer affinity.
+
+Context of study -
+Legal issues - Airbnb has been raking hefty fines for illegal rentals across the world, forcing lawmakers to coin newer laws. Specifically, in the city of Paris, Airbnb amassed fines of over 14 million Euros, thanks to a 2018 law that renders illegal posting (above 120 nights per year) punishable at 12,500 Euros per posting.
+
+### Assumptions -
+→ As booking data is confidential, the listing was considered booked when it is unavailable based on ‘Availability_365 field (e.g. ‘False’) in Calendar file.
+
+→ ‘Adjusted Price’ in Calendar file was considered an accurate estimator of daily income over ‘Price’, as it probably incorporates offers and demand-based Smart-pricing.
+
+→ We are deeming listings based on a single criterion of yearly 120 nights as Illegal/Legal and chose to ignore other regulations for ease of study.
+
+→ We considered the current dataset from Feb’19 to Jan’20 as yearly data irrespective of calendar year.
+
+Airbnb has been heavily penalized (€14 million fine last year) for listings that exceed the 120 nights per year legal limit. In this project, a statistical study was followed by visualizations isolating the illegal entities and their corresponding revenue.
 
