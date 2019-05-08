@@ -231,7 +231,7 @@ The files with Airbnb listings, calender and neighborhoods are available for ana
 ### Motivation -
 According to Critics, Airbnb drives up rental prices and lowers housing availability in cities such as Paris and San Francisco, forcing lawmakers to enact laws to protect the interests of local residents seeking accomodation. Failure to comply attracts heavy penalties, and any controversies triggered henceforth, can tarnish the public image of the company, and negatively impact customer affinity.
 
-Context of study -
+### Context of study -
 Legal issues - Airbnb has been raking hefty fines for illegal rentals across the world, forcing lawmakers to coin newer laws. Specifically, in the city of Paris, Airbnb amassed fines of over 14 million Euros, thanks to a 2018 law that renders illegal posting (above 120 nights per year) punishable at 12,500 Euros per posting.
 
 ### Assumptions -
