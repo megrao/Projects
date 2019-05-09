@@ -1,6 +1,6 @@
 # Projects - Couple of interesting notebooks and reports
 
-# Side Project - Face recognition
+## Side Project - Face recognition
 According to Yan, Kriegman, and Ahuja, face detection can be categorized into feature-based, appearance-based, knowledge-based and template matching. As the name suggests, feature-based relies on structural features of the face, whereas knowledge-based relies on the pre-existing knowledge and rules pertaining to the face constitution. Template matching correlates the input images with pre-defined, parametrized templates whereas appearance-based banks on a training set to generate face models.
 
 The last method (appearance-based) has superior performance as it involves statistical analysis and machine learning. Another application of this method would be face feature extraction.
@@ -32,7 +32,7 @@ The code was adapted from the below source, published in 2013 by Olivier Grisel.
 
 https://github.com/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb http://nbviewer.jupyter.org/github/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb
 
-# Side Project - Avocado Price Prediction
+## Side Project - Avocado Price Prediction
 
 ### Abstract
 Renowned statistician and management guru late W. Edwards Deming rightly said - "If you do not know how to ask the right question, you discover nothing." Therefore, it is essential to define the problem and carefully interrogate the data with the right questions, before proceeding to perform the necessary pre-processing of the sample as per the research design. Following are the details of the project undertaken.
@@ -184,7 +184,7 @@ Couple of interesting insights from the execution part.
 	FoodieFactor [Web log post - Photograph]. https://pixabay.com/en/avocado-avocados-food-healthy-food-2644150/
 	http://www.hassavocadoboard.com/retail/volume-and-price-data
 
-# Side Project - NYC Taxi data - Plotting very large datasets meaningfully using datashader
+## Side Project - NYC Taxi data - Plotting very large datasets meaningfully using datashader
 
 	Below is the link to the reference python notebook.
 https://anaconda.org/jbednar/nyc_taxi/notebook
@@ -206,7 +206,7 @@ Furthermore, it performs automatic operations and auto-ranging and optimates our
 	There were several errors during these steps due to an empty array passed from the aggregate parameter. Turned out to be incorrect x and y range in the plot definition.
 	The final plot looks surreal and beautiful. The interactive features of bokeh and datashader can be used to view local structures. Even though the timing of the trip is color-coded (example: red at night, blue in the evening), there are busy hours that stand-out. 
 
-# Group Project - Facebook replica database using SQL + Querying using Tableau and MongoDB
+## Group Project - Facebook replica database using SQL + Querying using Tableau and MongoDB
 
 ### Overview
 
@@ -216,7 +216,7 @@ Facebook Inc. is an American social media and social networking company which wa
 
 In order to proceed with this project, it is essential to understand how Facebook database works. Information on Facebook is mostly represented in the form of a social graph. The content is usually highly customizable based on the user’s privacy settings. Hence, the data has to be stored in its original form and then filtered when needed. Facebook uses a combination of MySQL and Memcache for its database. Every user has his/her own dedicated database. Facebook uses MySQL because of its speed and reliability.  Facebook stores friend relationships in a system called ‘Tao’ which uses MySQL. All tables have a hashed name and they are spread over a number of servers, similar to graph databases. Tao only stores the relations between entities. According to Facebook Inc., they collect information based on how a user uses their products. Information is collected from and about all computers and other devices the user uses to access Facebook, and this information is combined by them. The collected information is used to personalize features and content and to make suggestions for the user. The collected data is used to help advertisers to measure the effectiveness of their ads and services and to understand how the users interact with their services. They store the data until it is no longer necessary to provide the services or until the user deletes the account, whichever is first. While trying to understand the database structure of Facebook, we went through a number of resources and stumbled upon a resource where the class diagram was created by reverse engineering various Facebook business entities. Since only a very small portion of database details of Facebook is available as open source, we decided to create our database by reverse-engineering the the ER diagram we initially designed. Thereafter, we generated data ourselves before proceeding to integrate the data in sql. We went way beyond the presribed 5 problems/queries when we decided to tackle around 20 problems/queries. Some were routine tasks whereas others were aimed at analysing by querying the database.
 
-# Side Project - Flag illegal listings in Paris Airbnb dataset
+## Side Project - Flag illegal listings in Paris Airbnb dataset
 
 → Dataset: AirBnb data pertaining to paris Paris
 
