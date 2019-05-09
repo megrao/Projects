@@ -1,6 +1,6 @@
 # Projects - Couple of interesting notebooks and reports
 
-## Project 1 - Face recognition
+## Face recognition
 According to Yan, Kriegman, and Ahuja, face detection can be categorized into feature-based, appearance-based, knowledge-based and template matching. As the name suggests, feature-based relies on structural features of the face, whereas knowledge-based relies on the pre-existing knowledge and rules pertaining to the face constitution. Template matching correlates the input images with pre-defined, parametrized templates whereas appearance-based banks on a training set to generate face models.
 
 The last method (appearance-based) has superior performance as it involves statistical analysis and machine learning. Another application of this method would be face feature extraction.
@@ -32,7 +32,7 @@ The code was adapted from the below source, published in 2013 by Olivier Grisel.
 
 https://github.com/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb http://nbviewer.jupyter.org/github/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb
 
-## Project 2 - Avocado Price Prediction
+## Avocado Price Prediction
 
 ### Abstract
 Renowned statistician and management guru late W. Edwards Deming rightly said - "If you do not know how to ask the right question, you discover nothing." Therefore, it is essential to define the problem and carefully interrogate the data with the right questions, before proceeding to perform the necessary pre-processing of the sample as per the research design. Following are the details of the project undertaken.
@@ -184,7 +184,7 @@ Couple of interesting insights from the execution part.
 	FoodieFactor [Web log post - Photograph]. https://pixabay.com/en/avocado-avocados-food-healthy-food-2644150/
 	http://www.hassavocadoboard.com/retail/volume-and-price-data
 
-## Project 3: NYC Taxi data - Plotting very large datasets meaningfully using datashader
+## NYC Taxi data - Plotting very large datasets meaningfully using datashader
 
 	Below is the link to the reference python notebook.
 https://anaconda.org/jbednar/nyc_taxi/notebook
